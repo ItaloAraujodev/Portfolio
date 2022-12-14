@@ -26,7 +26,6 @@ const HomeShocase = () => {
             wrapperClassName: 'typewriter'
             }}/>
         </div>
-
       <div className='col-md-6 showcase-right-div' data-aos = 'slide-right'>
           <img src='src/assets/devices.png' alt='' />
       </div>
