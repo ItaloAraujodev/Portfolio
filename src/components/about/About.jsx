@@ -17,6 +17,7 @@ const About = () => {
         <h3 className='fw-light ajustando'>Me chamo Ítalo, tenho 23 anos e sou de Alagoas. Atualmente estou cursando Analise e desenvolvimento de sistemas pela Uninter e desenvolvimento Web Full-Stack na Trybe e RocketSeat. Sempre amei tudo que envolve tecnologia e acredito no poder da transformação através dela. Gosto de assistir, series e filmes de todos os gêneros e praticar atividade física nas horas vagas. <br />
         </h3>
       </div>
+      
       <div className='row justify-content-center mt-5'>
          <div className='col-md-6 mt-5'>
           <h1 className='text-center fw-light mt-5'>Experiência</h1>
