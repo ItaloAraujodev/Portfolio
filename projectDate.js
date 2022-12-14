@@ -5,6 +5,14 @@ export const projectDate = [
         title: "TrybeWallet",
         info: "Nesse projeto eu uso React, Redux e RTL para criar uma carteira virtual, aonde puxo informações de cambio de moedas de uma API e as uso para fazer uma carteira de gestão de gastos internacionais, que calcula em tempo real o câmbio e converte em real, exibindo outras informações úteis da transação.",
         liveLink: null,
-        repoLink: "https://github.com/Italodevjr/TrybeWallet"
+        repoLink: "https://github.com/ItalodevFull/TrybeWallet"
+    },
+
+    {
+        image: "https://i.imgur.com/Sy9ZTRr.png",
+        title: "Portfólio",
+        info: "Nesse projeto, utilizei HTML, CSS, JavaScript, Bootstrap, ReactJs e algumas bibliotecas",
+        liveLink: "https://italoaraujo.vercel.app/",
+        repoLink: "https://github.com/ItalodevFull/Portfolio"
     },
 ]
