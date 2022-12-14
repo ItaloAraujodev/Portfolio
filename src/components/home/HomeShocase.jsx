@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { CgScrollV } from 'react-icons/cg'
 import Typewriter from 'typewriter-effect'; //Efeito nas palaveas
+import device from '../../assets/devices.png'
 import AOS from 'aos';
 
 const HomeShocase = () => {
@@ -27,7 +28,7 @@ const HomeShocase = () => {
             }}/>
         </div>
       <div className='col-md-6 showcase-right-div' data-aos = 'slide-right'>
-          <img src='src/assets/devices.png' alt='' />
+          <img src={device} alt='' />
       </div>
 
       </div>

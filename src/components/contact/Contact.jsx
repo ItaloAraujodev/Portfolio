@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import contato2 from '../../assets/contato2.png';
 import './contact.css';
 import { AiFillGithub, AiFillMail, AiFillLinkedin } from 'react-icons/ai';
 import AOS from 'aos';
@@ -109,7 +110,7 @@ const Contact = () => {
         </div>
         { /* Right */}
         <div className='col-md-6 p-5 mt-5' data-aos='zoom-in'>
-          <img src="src/assets/contato2.png" alt="contato" className='contact-img' />
+          <img src={contato2} alt="contato" className='contact-img' />
         </div>
       </div>
     </div>
