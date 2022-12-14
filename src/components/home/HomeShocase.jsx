@@ -15,10 +15,10 @@ const HomeShocase = () => {
   return (
     <>
       <div className='row justify-content-center mx-0 showcase-div mt-4'>
-        <div className='col-md-6 showcase-text mt-5' data-aos = 'slide-left' >
+        <div className='col-md-6 showcase-text mt-5 text-respo' data-aos = 'slide-left' >
           <h1>Oi,</h1>
-          <h2>Eu sou o Ítalo, um desenvolvedor Full Stack.</h2>
-          <h5 className='texto'>Meu foco está em aliar as expectativas de meus clientes/parceiros às necessidades de seu público alvo</h5>
+          <h2 className='text-respo'>Eu sou o Ítalo, um desenvolvedor Full Stack.</h2>
+          <h5>Meu foco está em aliar as expectativas de meus clientes/parceiros às necessidades de seu público alvo</h5>
           <Typewriter options={{ 
             strings: words, 
             autoStart: true, 

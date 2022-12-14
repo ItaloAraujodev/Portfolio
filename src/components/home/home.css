@@ -43,4 +43,20 @@
     .skill-div {
         width: 80px !important;
     }
+
+    .text-respo h2 {
+        font-size: 18px;
+    }
+
+    .text-respo h5 {
+        font-size: 14px ;
+    }
+
+    .typewriter {
+        font-size: 13px;
+    }
+
+    .project-img {
+        height: auto;
+    }
 }

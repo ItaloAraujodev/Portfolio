@@ -24,13 +24,13 @@ const Project = () => {
                         <p className='fw-light'>{item.info}</p>
                         <div className='d-flex justify-content-center ajuste'>
                             <a href={item.liveLink} target='_blank' style={{ textDecoration: 'none' }}>
-                                {item.liveLink !== null ? <button className='btn custom-btn rounded-pill shadow'>Demo</button> : 
-                                    <button className='btn custom-disabled rounded-pill shadow'>Demo</button>
+                                {item.liveLink !== null ? <button className='btn custom-btn rounded-pill shadow'>Preview</button> : 
+                                    <button className='btn custom-disabled rounded-pill shadow'>Preview</button>
                                 }
                             </a>
                             <a href={item.repoLink} target='_blank' style={{ textDecoration: 'none' }}>
                                 {item.repoLink !== null ? <button className='btn custom-btn rounded-pill shadow ms-5'>Repositório</button> : 
-                                    <button className='btn custom-disabled rounded-pill shadow ms-5 '>Repo</button>
+                                    <button className='btn custom-disabled rounded-pill shadow ms-5 '>Repositório</button>
                                 }
                             </a>
                         </div>

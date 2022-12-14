@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 // --------------- IMAGENS -------------------------
 import minhaFoto from '../../assets/MinhaFoto.jpg';
-import fotoAboult from '../../assets/aboult.png'
+import fotoAboult from '../../assets/aboult.png';
+import curriculo from '../../assets/Italo-curriculo.pdf';
 // --------------- IMAGENS FIM -------------------------
 import './about.css';
 import AOS from 'aos';
@@ -35,7 +36,7 @@ const About = () => {
         </div> 
 
         <div className='text-center' data-aos='fade-up'>
-          <a href="src/assets/Italo-curriculo.pdf" style={{textDecoration: 'none'}} download>
+          <a href={curriculo} style={{textDecoration: 'none'}} download>
           <button className='btn custom-btn rounded-pill px-5 mt-5 shadow'>
             Obter meu currículo</button>
             </a>
