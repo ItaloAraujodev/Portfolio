@@ -1,0 +1,46 @@
+.showcase-div h2 {
+    font-size: 3vw;
+}
+
+.showcase-div h1 {
+    font-size: 8vw;
+}
+
+.showcase-right-div img {
+    width: 100%;
+}
+
+.typewriter {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.texto {
+    font-weight: 400;
+}
+
+.project-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.ajuste {
+    margin-top: 30px !important;
+}
+
+.btn-ind {
+    cursor: default !important;
+}
+
+@media (max-width: 1120px) {
+    .skill-div {
+        width: 120px !important;
+    }
+}
+
+@media (max-width: 634px) {
+    .skill-div {
+        width: 80px !important;
+    }
+}

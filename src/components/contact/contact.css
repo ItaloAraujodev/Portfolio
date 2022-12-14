@@ -1,0 +1,14 @@
+.contact-img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+#text-area {
+    resize: none;
+}
+
+.span-text {
+    font-size: 10px;
+    margin-left: 5px;
+}
