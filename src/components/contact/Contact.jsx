@@ -12,13 +12,13 @@ const Contact = () => {
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
   const [count, setCount] = useState(0)
+  const limit = 2000;
 
   useEffect(() => {
     AOS.init({ duration: 1000, delay: 100 })
   }, [])
-
   useEffect(() => {
-    setCount(message.length + 0)
+    setCount(limit - message.length)
   }, [message])
 
   const sendEnviar = async (e) => {
@@ -40,7 +40,6 @@ const Contact = () => {
       email: email,
       message: message
     }
-    console.log('Enviado!!')
     toast.success('Email enviado!!')
     const send = await emailjs.send("service_291e5dz", "template_uj93zmw", template, "WMWmDxs88-pZEYrp0");
     
@@ -85,9 +84,10 @@ const Contact = () => {
               id="text-area"
               className='form-control'
               value={message}
+              maxLength={limit}
               onChange={(e) => setMessage(e.target.value)}
               placeholder='Digite sua mensagem aqui...'></textarea>
-              <span className='bottom-0 start-0 span-text'>{count}</span>
+              <span className='bottom-0 start-0 span-text'>Limit: {count}</span>
           </div>
           <div className='text-end'>
             <button className='btn bg-light custom-btn rounded-pill shadow' onClick={sendEnviar}>Enviar</button>
